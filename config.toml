@@ -1,0 +1,12 @@
+baseURL = "https://seailly.github.io"
+languageCode = "en-us"
+title = "Seailly"
+theme = "plain_jane"
+publishDir = "docs"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "github"
+    name = "Github"
+    url = "https://github.com/seailly"
