@@ -3,6 +3,7 @@
 :root {
     --color-bg: #e6f1f7;
     --color-text: #1a365e;
+    --color-border: rgba(255, 255, 255, 0.1);
     --color-text-highlight: #115cb3;
     --color-text-secondary: #1a365e;
 
@@ -16,9 +17,6 @@
         --color-text: #e6f1f7;
         --color-text-highlight: #839fbf;
         --color-text-secondary: #ffffff;
-
-        --font-family: Bookman;
-        --font-family-secondary: Garamond, san-serif;
     }
 }
 
@@ -49,7 +47,6 @@ h1 {
 }
 
 h2 {
-    display: inline;
     font-size: 2.5em;
 }
 
@@ -58,6 +55,22 @@ h2 {
     h2 {
         font-size: 2em;
     }
+}
+
+
+article > h2,
+article > h3,
+article > h4,
+article > h5 {
+    padding-top: 15px;
+}
+
+.inline {
+    display: inline;
+}
+
+hr {
+    border-color: var(--color-border);
 }
 
 a {
@@ -77,7 +90,6 @@ a:visited {
 }
 
 p {
-    padding-top: 1.5em;
     font-size: 1.6em;
     text-justify: inter-word;
 }
@@ -100,6 +112,10 @@ ul {
     padding: 0;
 }
 
+nav > ul > li {
+    display: inline-block;
+    margin-right: 10px;
+}
 
 article {
     margin-bottom: 2em;

@@ -7,6 +7,25 @@ publishDir = "docs"
 [menu]
 
   [[menu.main]]
+    identifier = "Blog"
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "Projects"
+    name = "Projects"
+    url = "/projects"
+    weight = 2
+
+  [[menu.main]]
     identifier = "github"
     name = "Github"
     url = "https://github.com/seailly"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "Book list"
+    name = "Book List"
+    url = "/book_list"
+    weight = 4
